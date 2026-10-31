@@ -6,6 +6,7 @@
 **과학관에서 운영한 것**
 
 - [raim-ai-studio](https://github.com/henna2022/raim-ai-studio) 언어 AI가 배우는 방식을 다룬 태블릿 미니게임 5종, 2026.6~10 운영
+- [raim-flybrain](https://github.com/henna2022/raim-flybrain) 초파리 뇌 연결체 모델로 만든 태블릿 체험 「초파리 뇌 탐험 연구소」(간식 주기·틱택토·체스), 2026.10~ 운영
 
 **그 밖에 만든 것**
 
