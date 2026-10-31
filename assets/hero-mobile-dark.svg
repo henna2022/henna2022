@@ -3,14 +3,57 @@
   <defs><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7294FF"/><stop offset=".65" stop-color="#3C66FF"/><stop offset="1" stop-color="#2950DB"/></linearGradient></defs>
   <style>
     .blink { transform-box: fill-box; transform-origin: center; animation: blink 6s ease-in-out infinite; }
-    .sprout { transform-origin: 0 4px; animation: sway 5s ease-in-out infinite; }
+    .sprout { animation: sway 5s ease-in-out infinite; }
+    .robot-breathe { animation: breathe 5s ease-in-out infinite; }
     .fly { animation: hover 7s ease-in-out infinite; }
     @keyframes blink { 0%, 43%, 48%, 100% { transform: scaleY(1); } 45%, 46% { transform: scaleY(.12); } }
-    @keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+    @keyframes sway { 0%, 100% { transform: translateX(-.6px); } 50% { transform: translateX(.6px); } }
+    @keyframes breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
     @keyframes hover { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
-    @media (prefers-reduced-motion: reduce) { .blink, .sprout, .fly { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .blink, .sprout, .robot-breathe, .fly { animation: none; } }
   </style>
   <g font-family="&quot;Pretendard&quot;, &quot;Apple SD Gothic Neo&quot;, &quot;Noto Sans KR&quot;, &quot;Malgun Gothic&quot;, sans-serif">
-    <rect x="1" y="1" width="418" height="488" rx="28" fill="#111C30" stroke="#31415B"/><circle cx="210" cy="136" r="94" fill="#223454"/><g transform="translate(210 126) scale(0.83)"><ellipse cx="0" cy="116" rx="94" ry="9" fill="#31415B" opacity=".5"/><rect x="-53" y="85" width="44" height="29" rx="14" fill="#3C66FF"/><rect x="11" y="85" width="44" height="29" rx="14" fill="#3C66FF"/><path d="M-63 30 C-65 -1 64 -1 65 30 L60 78 C58 110 -58 110 -60 78 Z" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="url(#body)" /><path d="M-55 40 C-85 39 -85 76 -57 77" stroke="#3C66FF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M57 39 C86 43 85 75 59 77" stroke="#3C66FF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M0 -64 Q-5 -76 4 -86" stroke="#3C66FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle cx="5" cy="-89" r="8" fill="#D99C7B"/><rect x="-77" y="-63" width="154" height="110" rx="43" fill="url(#body)"/><path d="M-52 -44 Q-28 -55 -9 -52" stroke="#9FB7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".65"/><rect x="-57" y="-38" width="114" height="62" rx="27" fill="#E6EEFF"/><g class="blink"><rect x="-32" y="-18" width="10" height="19" rx="5" fill="#20324E"/><rect x="22" y="-18" width="10" height="19" rx="5" fill="#20324E"/></g><path d="M-10 7 Q0 15 10 7" stroke="#20324E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle cx="-41" cy="4" r="5" fill="#D4E1FF"/><circle cx="41" cy="4" r="5" fill="#D4E1FF"/><g transform="translate(0 56) scale(1.13)"><g class="sprout"><path d="M0 4 Q-3 -11 1 -30" stroke="#80C5A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M0 -16 C-19 -13 -23 -29 -21 -33 C-8 -35 1 -27 0 -16" stroke="#80C5A0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="#94CAA4" /><path d="M0 -24 C1 -39 14 -43 24 -39 C23 -25 12 -21 0 -24" stroke="#80C5A0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="#94CAA4" /></g></g><path d="M-27 55 L-21 89 Q0 99 21 89 L27 55 Z" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="#D99C7B" /><rect x="-31" y="51" width="62" height="12" rx="6" fill="#F2C4A6"/><path d="M-12 69 L-10 84" stroke="#F7D4BC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="-40" cy="64" rx="17" ry="13" fill="#3C66FF"/><ellipse cx="40" cy="64" rx="17" ry="13" fill="#3C66FF"/></g><g transform="translate(315 82) scale(0.65)"><g class="fly"><ellipse cx="-6" cy="-7" rx="8" ry="4.5" transform="rotate(28 -6 -7)" fill="#162238" stroke="#B1BFD5"/><ellipse cx="6" cy="-7" rx="8" ry="4.5" transform="rotate(-28 6 -7)" fill="#162238" stroke="#B1BFD5"/><path d="M-3 4 L-8 8 M3 4 L8 8" stroke="#B1BFD5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="0" cy="1" rx="4" ry="7" fill="#B1BFD5"/><circle cx="0" cy="-6" r="4" fill="#F0F4FF"/><circle cx="-2" cy="-7" r="1.4" fill="#D99C7B"/><circle cx="2" cy="-7" r="1.4" fill="#D99C7B"/></g></g><text x="28" y="284" font-size="32" font-weight="700" fill="#F0F4FF" >이주원 · Juwon Lee</text><text font-size="26" font-weight="400" fill="#F0F4FF"><tspan x="28" y="329">과학관에서 로봇·AI 전시를 </tspan><tspan x="28" y="366">만들고 운영합니다</tspan></text><text font-size="18" font-weight="400" fill="#B1BFD5"><tspan x="28" y="414">Exhibit web apps &amp; education </tspan><tspan x="28" y="439">programs at the Seoul Robot &amp; AI </tspan><tspan x="28" y="464">Museum</tspan></text>
+    <rect x="1" y="1" width="418" height="488" rx="28" fill="#111C30" stroke="#31415B"/><circle cx="210" cy="136" r="94" fill="#223454"/><g transform="translate(210 126) scale(0.83)"><ellipse cx="0" cy="116" rx="94" ry="9" fill="#31415B" opacity=".5"/>
+      <g class="robot-breathe">
+        <ellipse cx="-28" cy="101" rx="19" ry="13" fill="#3C66FF"/>
+        <ellipse cx="28" cy="101" rx="19" ry="13" fill="#3C66FF"/>
+        <path d="M-45 47 C-43 28 43 28 45 47 C54 72 48 100 25 104 Q0 110 -25 104 C-48 100 -54 72 -45 47Z" fill="url(#body)"/>
+        <path d="M0 -73 Q-6 -86 3 -95" fill="none" stroke="#3C66FF" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="4" cy="-100" r="9" fill="#D99C7B"/>
+        <circle cx="1" cy="-103" r="3" fill="#F7D4BC"/>
+        <ellipse cx="0" cy="-14" rx="82" ry="64" fill="url(#body)"/>
+        <path d="M-55 -53 Q-38 -67 -18 -66" fill="none" stroke="#9FB7FF" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+        <ellipse cx="0" cy="-8" rx="64" ry="45" fill="#E6EEFF"/>
+        <ellipse cx="-46" cy="11" rx="10" ry="6" fill="#F2B2B6" opacity=".8"/>
+        <ellipse cx="46" cy="11" rx="10" ry="6" fill="#F2B2B6" opacity=".8"/>
+        <g class="blink">
+          <ellipse cx="-27" cy="-9" rx="11.5" ry="15" fill="#20324E"/>
+          <ellipse cx="-25" cy="-1" rx="6" ry="4" fill="#42649A"/>
+          <circle cx="-30" cy="-15" r="4" fill="#FFFFFF"/>
+          <circle cx="-23" cy="-6" r="2" fill="#FFFFFF"/>
+        </g>
+        <g class="blink">
+          <ellipse cx="27" cy="-9" rx="11.5" ry="15" fill="#20324E"/>
+          <ellipse cx="29" cy="-1" rx="6" ry="4" fill="#42649A"/>
+          <circle cx="24" cy="-15" r="4" fill="#FFFFFF"/>
+          <circle cx="31" cy="-6" r="2" fill="#FFFFFF"/>
+        </g>
+        <path d="M-6 15 Q0 22 6 15" fill="none" stroke="#20324E" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M-43 56 Q-54 77 -30 83 M43 56 Q54 77 30 83" fill="none" stroke="#3C66FF" stroke-width="20" stroke-linecap="round"/>
+        <g transform="translate(0 75)">
+          <g class="sprout">
+            <path d="M0 2 Q-2 -12 2 -26" fill="none" stroke="#80C5A0" stroke-width="3" stroke-linecap="round"/>
+            <path d="M0 -12 C-13 -10 -23 -18 -20 -27 C-8 -29 1 -22 0 -12Z" fill="#94CAA4" stroke="#80C5A0" stroke-width="1.4" stroke-linejoin="round"/>
+            <path d="M1 -21 C0 -33 12 -38 23 -34 C24 -23 13 -17 1 -21Z" fill="#94CAA4" stroke="#80C5A0" stroke-width="1.4" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <path d="M-25 76 L-20 100 C-18 110 18 110 20 100 L25 76Z" fill="#D99C7B"/>
+        <rect x="-28" y="71" width="56" height="11" rx="5.5" fill="#F2C4A6"/>
+        <path d="M-12 88 L-10 99" fill="none" stroke="#F7D4BC" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="-27" cy="84" rx="13" ry="12" fill="url(#body)"/>
+        <ellipse cx="27" cy="84" rx="13" ry="12" fill="url(#body)"/>
+        <path d="M-33 80 Q-30 76 -26 78 M22 80 Q25 76 29 78" fill="none" stroke="#9FB7FF" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>
+      </g>
+    </g><g transform="translate(315 82) scale(0.65)"><g class="fly"><ellipse cx="-6" cy="-7" rx="8" ry="4.5" transform="rotate(28 -6 -7)" fill="#162238" stroke="#B1BFD5"/><ellipse cx="6" cy="-7" rx="8" ry="4.5" transform="rotate(-28 6 -7)" fill="#162238" stroke="#B1BFD5"/><path d="M-3 4 L-8 8 M3 4 L8 8" stroke="#B1BFD5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="0" cy="1" rx="4" ry="7" fill="#B1BFD5"/><circle cx="0" cy="-6" r="4" fill="#F0F4FF"/><circle cx="-2" cy="-7" r="1.4" fill="#D99C7B"/><circle cx="2" cy="-7" r="1.4" fill="#D99C7B"/></g></g><text x="28" y="284" font-size="32" font-weight="700" fill="#F0F4FF" >이주원 · Juwon Lee</text><text font-size="26" font-weight="400" fill="#F0F4FF"><tspan x="28" y="329">과학관에서 로봇·AI 전시를 </tspan><tspan x="28" y="366">만들고 운영합니다</tspan></text><text font-size="18" font-weight="400" fill="#B1BFD5"><tspan x="28" y="414">Exhibit web apps &amp; education </tspan><tspan x="28" y="439">programs at the Seoul Robot &amp; AI </tspan><tspan x="28" y="464">Museum</tspan></text>
   </g>
 </svg>
