@@ -7,7 +7,6 @@
 
 - [raim-ai-artstudio](https://github.com/henna2022/raim-ai-artstudio) AI 그림 키오스크, 2026.6~8 운영, 생성 그림 14,328장
 - [raim-ai-studio](https://github.com/henna2022/raim-ai-studio) 언어 AI가 배우는 방식을 다룬 태블릿 미니게임 5종, 2026.6~10 운영
-- [maskbot-restart](https://github.com/henna2022/maskbot-restart) 전시 로봇이 멈추면 다시 켜는 자동복구 도구
 
 **그 밖에 만든 것**
 
