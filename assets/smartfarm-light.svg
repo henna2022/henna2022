@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="330" viewBox="0 0 270 330" role="img" aria-labelledby="title">
+  <title id="title">smartfarm-lab · AI 모델을 직접 학습시키고 실물 보드를 움직이는 고교 수업 · 양평교육청 위탁 · 2026.10 수업</title>
+  <defs><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4D78FF"/><stop offset=".65" stop-color="#2252F5"/><stop offset="1" stop-color="#1946DE"/></linearGradient></defs>
+  
+  <g font-family="&quot;Pretendard&quot;, &quot;Apple SD Gothic Neo&quot;, &quot;Noto Sans KR&quot;, &quot;Malgun Gothic&quot;, sans-serif">
+    <rect x="1" y="1" width="268" height="328" rx="22" fill="#FFFFFF" stroke="#DBE4F4"/><rect x="15" y="15" width="240" height="130" rx="15" fill="#F7F9FF"/>
+    <path d="M79 93 Q76 72 81 48" stroke="#43876C" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M79 70 C60 72 51 58 53 46 C68 43 82 53 79 70 Z M80 58 C81 42 96 34 110 40 C109 55 96 63 80 58 Z" fill="#76B68A" stroke="#43876C" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M57 91 H103 L96 122 H64 Z" fill="#E9AE8D" stroke="#DBE4F4" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect x="53" y="85" width="54" height="10" rx="4" fill="#E9AE8D"/>
+    <path d="M105 108 H129 V83 H151" stroke="#53647C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="151" y="47" width="67" height="76" rx="10" fill="#EAF0FF" stroke="#DBE4F4" stroke-width="1.5"/>
+    <path d="M159 58 H169 V63 H178 V58 H188 V63 H198 V58 H209 M145 72 H151 M145 84 H151 M145 96 H151 M145 108 H151 M218 72 H224 M218 84 H224 M218 96 H224 M218 108 H224" stroke="#53647C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="171" y="76" width="27" height="27" rx="5" fill="#2252F5"/>
+    <path d="M178 84 H191 M178 90 H191 M178 96 H186" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="161" cy="113" r="3" fill="#43876C"/><rect x="179" y="117" width="12" height="9" rx="2" fill="#53647C"/>
+    <text x="22" y="179" font-size="22" font-weight="700" fill="#20324E" >smartfarm-lab</text><text font-size="16" font-weight="400" fill="#53647C"><tspan x="22" y="210">AI 모델을 직접 학습시키고</tspan><tspan x="22" y="235">실물 보드를 움직이는 고교 수업</tspan></text><path d="M22 275 H248" stroke="#DBE4F4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle cx="27" cy="301" r="3.5" fill="#53647C"/><text x="39" y="307" font-size="14" font-weight="400" fill="#20324E" >양평교육청 위탁 · 2026.10 수업</text><path d="M232 171 H244 V183 M234 181 L244 171" stroke="#53647C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

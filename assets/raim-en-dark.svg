@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="330" viewBox="0 0 270 330" role="img" aria-labelledby="title">
+  <title id="title">raim-en · 외국인 관람객이 이메일로 해설 투어를 예약하는 사이트 · 과학관 공식 예약 창구 · 2026.10~</title>
+  <defs><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7294FF"/><stop offset=".65" stop-color="#3C66FF"/><stop offset="1" stop-color="#2950DB"/></linearGradient></defs>
+  
+  <g font-family="&quot;Pretendard&quot;, &quot;Apple SD Gothic Neo&quot;, &quot;Noto Sans KR&quot;, &quot;Malgun Gothic&quot;, sans-serif">
+    <rect x="1" y="1" width="268" height="328" rx="22" fill="#162238" stroke="#31415B"/><rect x="15" y="15" width="240" height="130" rx="15" fill="#111C30"/>
+    <rect x="66" y="37" width="138" height="91" rx="14" fill="#223454" stroke="#31415B" stroke-width="1.5"/>
+    <rect x="74" y="62" width="122" height="58" rx="8" fill="#162238"/>
+    <path d="M66 60 H204" stroke="#31415B" stroke-width="1.5"/>
+    <path d="M94 31 V46 M176 31 V46" stroke="#B1BFD5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="86" y="73" width="15" height="12" rx="4" fill="#3C66FF"/><rect x="112" y="73" width="15" height="12" rx="4" fill="#3C66FF"/>
+    <rect x="86" y="96" width="15" height="12" rx="4" fill="#223454"/><rect x="112" y="96" width="15" height="12" rx="4" fill="#223454"/>
+    <circle cx="163" cy="92" r="22" fill="#3C66FF"/>
+    <path d="M152 92 L160 100 L175 83" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M39 62 H49 M44 57 V67 M224 101 H234 M229 96 V106" stroke="#D99C7B" stroke-width="2" stroke-linecap="round"/>
+    <text x="22" y="179" font-size="22" font-weight="700" fill="#F0F4FF" >raim-en</text><text font-size="16" font-weight="400" fill="#B1BFD5"><tspan x="22" y="210">외국인 관람객이 이메일로</tspan><tspan x="22" y="235">해설 투어를 예약하는 사이트</tspan></text><path d="M22 275 H248" stroke="#31415B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle cx="27" cy="301" r="3.5" fill="#B1BFD5"/><text x="39" y="307" font-size="14" font-weight="400" fill="#F0F4FF" >과학관 공식 예약 창구 · 2026.10~</text><path d="M232 171 H244 V183 M234 181 L244 171" stroke="#B1BFD5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>
