@@ -7,15 +7,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/about-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/about-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
-    <img src="assets/about-light.svg" width="840" alt="파랑을 좋아해요 · 가을이 제일 좋아요 · 떡볶이는 늘 옳아요 · 완전 P · 식물생명환경 × 소프트웨어융합 · 영어로 전시 해설도 해요">
-  </picture>
-</p>
-
 ### 만든 것
 
 <p align="center">
