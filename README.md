@@ -3,7 +3,7 @@
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-mobile-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img src="assets/hero-light.svg" width="840" alt="이주원 · Juwon Lee. 과학관에서 로봇·AI 전시를 만들고 운영합니다. 새싹 화분을 든 파란 말랑 로봇.">
+    <img src="assets/hero-light.svg" width="840" alt="이주원 · Juwon Lee. 과학관에서 로봇·AI 전시를 만들고 운영합니다. 손 흔드는 과학관 안내 로봇 라이미.">
   </picture>
 </p>
 
